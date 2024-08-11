@@ -7,6 +7,7 @@
     z-index: 1;
     transition-timing-function: ease-in;
     transition: all 0.5s;
+    
 }
 
 .nav-black{
@@ -24,8 +25,9 @@
     position: fixed;
     top: 10px;
     left: 0;
-    width: 80px;
+    width: 105px;
     padding-left: 20px;
+    cursor: pointer;
 
 }
 
@@ -34,5 +36,6 @@
     position: fixed;
     right: 20px;
     width: 30px;
+    cursor: pointer;
 
 }
