@@ -1,4 +1,9 @@
-const API_KEY = '60026218470704307c0c3be3aef5959b';
+
+const API_KEY = process.env.REACT_APP_API_KEY;
+
+if (!API_KEY) {
+    throw new Error("API_KEY is not defined in the .env file.");
+}
 
 
 const requests = {
